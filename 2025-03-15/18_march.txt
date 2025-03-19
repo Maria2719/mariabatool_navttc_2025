@@ -1,0 +1,38 @@
+for task given by nvttc
+task1_Navttc
+
+for sir task
+Task1_comstech
+my_task1_by_sir
+
+for uploading on GITHUB:
+
+open github
+create new repository
+maria_navttc_2025
+upload files by 
+go to settings
+menu-> pages
+go to tab CODE -> ADD FILE ->UPLOAD-> DRAG AND DROP
+
+go to pc folder
+and select
+drag to github and drop
+commit changes
+
+ordered list-> numbered list
+unordered list-> bullets/detted list
+Descriptive list is same as defination list
+
+
+FORMS
+
+post== sensitive data
+get()== insensitive
+
+----------------------------
+validation through required in input
+3 methods of validation
+1.html
+2. javascript
+3.
