@@ -1,0 +1,22 @@
+
+body{
+    background-image: url(bg.jpg);
+background-attachment: fixed;
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(42, 10, 100);
+   }
+   
+   p{
+    color:rgb(5, 46, 32);
+    text-align: center;
+    border: 1px solid rgb(104, 8, 168);
+    padding: 15px;
+    background-color: rgb(243, 207, 139);
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+   }
