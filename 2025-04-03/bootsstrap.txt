@@ -1,0 +1,24 @@
+AFTER EID NOTES
+3rd April 2025
+BOOTSTRAP STARTED
+
+div.col*3
+bg-dark
+bg-danger   [red
+BG-SUCCESS [green
+bg-warning  [yellow
+
+<h1 class="container  p 0">
+
+container-fluid=100% width
+class="text-center py-2"
+
+RESPONSIVE LAYOUT:
+col-md-3
+<div class="col-lg-4 col-md-6 col-sm-6 border"
+
+<div class="call-to-action my-3">
+btn-danger
+<a class ="class btn btn-dark" href="resume"
+
+https://www.free-css.com/(for free css templates)
