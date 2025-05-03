@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>My name is <span id="name">----</span></h3>     
+<button id="red" >RED</button>
+<button id="green" >GREEN</button>
+<button id="blue" >BLUE</button>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <script>
+
+$("#name").text("Maria")
+
+$("#red").click(  function(){
+
+$("#name").css('color', 'red')
+})
+
+
+$("#green").click(  function(){
+
+$("#name").css('color', 'green')
+})
+
+$("#blue").click(  function(){
+
+$("#name").css('color', 'blue')
+})
+
+
+
+</script>
+</body>
+</html>
