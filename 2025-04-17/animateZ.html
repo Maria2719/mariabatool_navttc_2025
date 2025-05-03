@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Events</title>
+</head>
+<body>
+
+    <button id="btn1">Animate</button> 
+    <button id="btn2">Zoom-in</button> 
+    <button id="btn3">Zoom-out</button> 
+
+    <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+
+$("#btn1").click(function(){
+    $("div").animate({left: '250px'});
+  });
+
+  $("#btn2").click(function(){
+  $("div").animate({
+    left: '250px',
+    height: '+=150px',
+    width: '+=150px'
+  });
+}); 
+
+
+$("#btn3").click(function(){
+  $("div").animate({
+    right: '250px',
+    height: '-=150px',
+    width: '-=150px'
+  });
+}); 
+
+
+
+</script> 
+</body>
+</html>
