@@ -1,0 +1,10 @@
+
+.m {
+    background-image: url("sir_bg.jpg");
+    background-size: 80% ; */
+    background-attachment: fixed;
+    /* width:100vh; */
+    background-size: cover; 
+    background-position:center ;
+    
+}
