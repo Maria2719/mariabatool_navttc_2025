@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Objects</title>
+</head>
+    <body>
+    
+        <script>
+           const university = {
+            name: "MUET",
+            NumberofDepts: 10,
+            Departments: {
+            one : "IT",
+            two : "CS",
+            three : "TC",
+            four : "Civil",
+
+                },
+            }
+
+            document.body.innerHTML = university.Departments.two;
+            
+            university.Departments.two = "AI";
+            document.body.innerHTML = university.Departments.two;
+        
+        </script>
+
+    </body>
+</html>
