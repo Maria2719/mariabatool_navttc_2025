@@ -1,0 +1,35 @@
+Summary:
+Concept
+Description
+Static Variable
+Belongs to class, not object; retains value globally.
+Static Method
+Called without object; can't use $this.
+Inheritance
+Reuse code by extending parent class.
+Access Modifiers
+Control visibility (public, protected, private)
+Method Overriding
+Child method replaces parent version.
+
+
+
+🔧 Exercise 1: Basic Inheritance
+Instruction:
+ Create a Person class with a name property and a sayHello() method. Then create a Teacher class that inherits from Person and adds a subject property. Instantiate the Teacher and display both name and subject using the methods.
+
+🔧 Exercise 2: Method Overriding
+Instruction:
+ Create a Device class with a method powerOn() that echoes a generic message. Then create a Laptop class that extends Device and overrides the powerOn() method with a more specific message. Call the method from both classes and observe the difference.
+
+🔧 Exercise 3: Parent Method Access
+Instruction:
+ Create a User class with a method getRole() that returns "User". Create an Admin class that extends User and overrides the getRole() method but still calls the parent method using parent::getRole() and appends " & Admin".
+
+🔧 Exercise 4: Add Child Method
+Instruction:
+ Make a Vehicle class with a property type. Then create a Truck class that extends Vehicle and adds a method loadGoods() that echoes "Goods loaded in Truck". Instantiate the Truck class and call both the inherited and own method.
+
+🔧 Exercise 5: Multiple Child Classes
+Instruction:
+ Create a Shape class with a method getArea() that returns 0. Then create two child classes: Rectangle and Circle. Each should override getArea() and compute the area based on their respective formulas.

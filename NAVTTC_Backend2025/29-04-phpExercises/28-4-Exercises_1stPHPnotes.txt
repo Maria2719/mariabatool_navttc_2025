@@ -1,0 +1,96 @@
+Short Practice Exercises
+Exercise 1: Create a Basic Class and Object
+Create a class named Animal with two public properties: type and sound.
+
+
+Create an object from the Animal class.
+
+
+Set the type to "Dog" and sound to "Bark".
+
+
+Display the values.
+
+
+
+Exercise 2: Use Access Specifiers
+Create a class named Employee.
+
+
+Add:
+
+
+a public property $name
+
+
+a protected property $position
+
+
+a private property $salary
+
+
+Create a public method setDetails() to set all three properties.
+
+
+Create a public method getSalary() to return the salary.
+
+
+Create an object and set details, then print the employee name and salary.
+
+
+
+Exercise 3: Create Multiple Objects
+Create a class Book with public properties: title and author.
+
+
+Create two objects: one for "Harry Potter" by "J.K. Rowling" and another for "The Alchemist" by "Paulo Coelho".
+
+
+Display details for both books using a method displayBook().
+
+
+
+
+
+Exercise 4: Access Control Testing
+Create a class BankAccount with:
+
+
+a public property $accountHolder
+
+
+a private property $balance
+
+
+Create methods:
+
+
+deposit($amount)
+
+
+getBalance()
+
+
+Create an object, deposit some amount, and display the balance.
+
+
+
+Quick Hints for Solving
+Use public, protected, private properly.
+
+
+Use $this->propertyName inside methods.
+
+
+Create objects using new ClassName().
+
+
+Call methods using $object->methodName().
+
+
+
+Sample Mini Quiz
+Answer in 1 line:
+Q1: What keyword is used to create an object?
+ Q2: Which access specifier allows properties to be accessed anywhere?
+ Q3: Can a private variable be accessed outside the class directly? (Yes/No)
