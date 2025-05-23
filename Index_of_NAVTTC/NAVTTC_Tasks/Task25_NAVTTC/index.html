@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 25</title>
+    <style>
+        .para{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <h3>Task25: Make a button that slides down some content when clicked using jQuery.</h3>
+  
+    <button id="btn"> Slide </button>
+    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eligendi praesentium, quo dolores optio facilis neque magnam aliquam ipsum molestias repellat quibusdam corporis perferendis nulla deserunt. Ab tempora animi itaque?</p>
+   
+
+   
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+<script>
+
+$("#btn").click(  function(){
+$("p").slideDown("slow")
+})
+
+</script>
+
+</body>
+</html>
