@@ -1,8 +1,0 @@
-
-PHP TASKS OF NAVTTC
-
-in C:\ xampp\htdocs\BACKEND_NAVTTC\
-
-Task26_NAVTTC
-Task28_NAVTTC
-Task29_NAVTTC
